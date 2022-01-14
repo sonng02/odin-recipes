@@ -1,0 +1,29 @@
+* {
+    background-color: #121212;
+    color: white;
+    text-align: center;
+}
+.img {
+    height: auto;
+    width: auto;
+    border-width: 5px;  
+    border-style: groove;
+    border-color: rgb(255, 255, 255);
+}
+.title {
+    font-family: 'The Nautigal', sans-serif;
+    font-size: 70px;
+}
+.title.two {
+    font-size: 40px;
+}
+#menu {
+    background-color: burlywood;
+    font-size: 30px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: #9370DB;
+}
