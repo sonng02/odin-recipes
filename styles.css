@@ -6,7 +6,7 @@
 .img {
     height: auto;
     width: auto;
-    border-width: 5px;  
+    border-width: 3px;  
     border-style: groove;
     border-color: rgb(255, 255, 255);
 }
@@ -18,12 +18,20 @@
     font-size: 40px;
 }
 #menu {
-    background-color: burlywood;
     font-size: 30px;
 }
-a {
-    text-decoration: none;
+button {
+    border: 2px groove white;
+    padding: 15px 25px;
+    font-size: 25px;
+    margin: 15px;
+    border-radius: 15px;
+    cursor: pointer;
 }
-a:hover {
-    color: #9370DB;
+button:hover {
+    background-color: rgb(177, 165, 165);
+    color: #121212;
+}
+button:active {
+    background-color: rgb(218, 210, 210);
 }
